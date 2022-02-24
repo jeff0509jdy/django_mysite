@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<html>           
+    <head>
+        <title>I come from template!!</title>
+        <style>
+          
+          @import url("https://fonts.googleapis.com/css?family=Noto+Sans+TC:100,300,400,500,700,900&display=swap");
+          @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css");
+
+          *{
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            font-family: 'Noto Sans TC', sans-serif;
+          }
+        </style>
+        <link rel="stylesheet" href="../static/css/show.css">   
+    </head>            
+    <body>
+        <header class="main-header">
+            <div class="container">
+              <div class="logo">
+                幣竟深愛過
+                <i class="bi bi-currency-bitcoin"></i>
+              </div>
+              <ul class="main-nav">
+                <li>
+                  <a href="../home">主頁</a>
+                </li>
+                <li>
+                  <a href="#">模型參數解釋</a>
+                </li>
+                <li>
+                  <a href="">幣種選擇</a>
+                  <ul>
+                    <li><a href="../choose">預設</a></li>
+                    <li><a href="../choice">自選</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="../lstmrecord">測試紀錄</a>
+                  <ul>
+                    <li><a href="../crnnrecord">crnn</a></li>
+                    <li><a href="../lstmrecord">lstm</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+        </header> 
+        
+        <div class="main">
+            <div class="text">
+                <h3>prediction</h3>
+                <br>
+                <img src="/static/forecast_test_lstm.jpg" alt="forecast_test">
+                <p>測試誤差為 {{ Test_error }}</p>
+                {% ifequal ordernum 1 %}
+                    在 {{all}} 次測試中是最小的!
+                {% else %}
+                    在 {{all}} 次測試中是第 {{ ordernum }} 小的
+                {% endifequal %}
+            </div>
+        </div>
+            
+    </body>
+</html>

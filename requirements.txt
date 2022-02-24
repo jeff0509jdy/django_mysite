@@ -1,0 +1,127 @@
+analytics-python==1.4.0
+argon2-cffi @ file:///C:/ci/argon2-cffi_1613037829118/work
+asgiref==3.4.1
+async-generator==1.10
+attrs @ file:///tmp/build/80754af9/attrs_1620827162558/work
+backcall @ file:///home/ktietz/src/ci/backcall_1611930011877/work
+backoff==1.10.0
+bcrypt==3.2.0
+beautifulsoup4==4.10.0
+bleach @ file:///tmp/build/80754af9/bleach_1612211392645/work
+bs4==0.0.1
+certifi==2021.5.30
+cffi @ file:///C:/ci/cffi_1613247269562/work
+charset-normalizer==2.0.6
+click==8.0.3
+colorama @ file:///tmp/build/80754af9/colorama_1607707115595/work
+cryptography==36.0.0
+cycler==0.10.0
+dataclasses @ file:///tmp/build/80754af9/dataclasses_1614363715916/work
+decorator @ file:///tmp/build/80754af9/decorator_1621259047763/work
+defusedxml @ file:///tmp/build/80754af9/defusedxml_1615228127516/work
+dj-database-url==0.5.0
+dj-static==0.0.6
+Django==3.2.10
+entrypoints==0.3
+et-xmlfile==1.1.0
+ffmpy==0.3.0
+Flask==2.0.2
+Flask-CacheBuster==1.0.0
+Flask-Cors==3.0.10
+Flask-Login==0.5.0
+gradio==2.4.6
+gunicorn==20.1.0
+idna==3.2
+importlib-metadata @ file:///C:/ci/importlib-metadata_1617877476772/work
+ipykernel @ file:///C:/ci/ipykernel_1596206775157/work/dist/ipykernel-5.3.4-py3-none-any.whl
+ipython @ file:///C:/ci/ipython_1593446240034/work
+ipython-genutils @ file:///tmp/build/80754af9/ipython_genutils_1606773439826/work
+ipywidgets @ file:///tmp/build/80754af9/ipywidgets_1610481889018/work
+itsdangerous==2.0.1
+jedi==0.17.0
+Jinja2 @ file:///tmp/build/80754af9/jinja2_1621238361758/work
+joblib==1.0.1
+jsonschema @ file:///tmp/build/80754af9/jsonschema_1602607155483/work
+jupyter==1.0.0
+jupyter-client @ file:///tmp/build/80754af9/jupyter_client_1616770841739/work
+jupyter-console @ file:///tmp/build/80754af9/jupyter_console_1616615302928/work
+jupyter-core @ file:///C:/ci/jupyter_core_1612213536848/work
+jupyterlab-pygments @ file:///tmp/build/80754af9/jupyterlab_pygments_1601490720602/work
+jupyterlab-widgets @ file:///tmp/build/80754af9/jupyterlab_widgets_1609884341231/work
+kiwisolver==1.3.1
+lxml==4.6.3
+markdown2==2.4.2
+MarkupSafe @ file:///C:/ci/markupsafe_1621528313524/work
+matplotlib==3.3.4
+mistune==0.8.4
+mkl-fft==1.3.0
+mkl-random==1.0.4
+mkl-service==2.3.0
+monotonic==1.6
+multitasking==0.0.10
+nbclient @ file:///tmp/build/80754af9/nbclient_1614364831625/work
+nbconvert @ file:///C:/ci/nbconvert_1601896775581/work
+nbformat @ file:///tmp/build/80754af9/nbformat_1617383369282/work
+nest-asyncio @ file:///tmp/build/80754af9/nest-asyncio_1613680548246/work
+notebook @ file:///C:/ci/notebook_1621528813829/work
+numpy==1.17.0
+olefile==0.46
+opencv-python==4.5.4.60
+openpyxl==3.0.7
+packaging @ file:///tmp/build/80754af9/packaging_1611952188834/work
+pandas==1.1.5
+pandocfilters @ file:///C:/ci/pandocfilters_1605120535071/work
+paramiko==2.8.1
+parso @ file:///tmp/build/80754af9/parso_1617223946239/work
+pickleshare @ file:///tmp/build/80754af9/pickleshare_1606932040724/work
+Pillow @ file:///C:/ci/pillow_1617386325740/work
+prometheus-client @ file:///tmp/build/80754af9/prometheus_client_1618088486455/work
+prompt-toolkit @ file:///tmp/build/80754af9/prompt-toolkit_1616415428029/work
+pycparser @ file:///tmp/build/80754af9/pycparser_1594388511720/work
+pycryptodome==3.11.0
+pydub==0.25.1
+Pygments @ file:///tmp/build/80754af9/pygments_1621606182707/work
+PyNaCl==1.4.0
+pyparsing @ file:///home/linux1/recipes/ci/pyparsing_1610983426697/work
+pyrsistent @ file:///C:/ci/pyrsistent_1600141799440/work
+python-dateutil @ file:///home/ktietz/src/ci/python-dateutil_1611928101742/work
+pytz==2021.1
+pywin32==227
+pywinpty==0.5.7
+pyzmq==20.0.0
+qtconsole @ file:///tmp/build/80754af9/qtconsole_1616775094278/work
+QtPy==1.9.0
+requests==2.26.0
+scikit-learn==0.24.2
+scipy==1.5.4
+Send2Trash @ file:///tmp/build/80754af9/send2trash_1607525499227/work
+simplejson==3.17.5
+six @ file:///C:/ci/six_1605187303045/work
+sklearn==0.0
+soupsieve==2.2.1
+sqlparse==0.4.2
+static3==0.7.0
+terminado==0.9.4
+testpath @ file:///home/ktietz/src/ci/testpath_1611930608132/work
+threadpoolctl==2.2.0
+torch==1.7.1
+torchaudio==0.7.2
+torchsummary==1.5.1
+torchvision==0.8.2
+tornado @ file:///C:/ci/tornado_1606942379977/work
+tqdm==4.62.3
+traitlets==4.3.3
+tushare==1.2.64
+typing-extensions @ file:///home/ktietz/src/ci_mi/typing_extensions_1612808209620/work
+urllib3==1.26.7
+wcwidth @ file:///tmp/build/80754af9/wcwidth_1593447189090/work
+webencodings==0.5.1
+websocket-client==1.2.1
+Werkzeug==2.0.2
+widgetsnbextension==3.5.1
+wincertstore==0.2
+xlrd==1.2.0
+XlsxWriter==1.4.4
+yfinance==0.1.68
+psycopg2==2.6.1
+zipp @ file:///tmp/build/80754af9/zipp_1615904174917/work
