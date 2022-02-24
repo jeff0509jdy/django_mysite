@@ -1,0 +1,155 @@
+
+/** NAV樣式 **/
+
+.main-header{
+	background: linear-gradient(0deg,#3E5151,#DECBA4);
+}
+.main-header .container{
+	display: flex;
+	align-items: center;
+	padding: 20px;
+	max-width: 1200px;
+	margin: auto;
+}
+.main-header .logo {
+	width: 170px;
+	font-size: 25px;
+	color: rgb(242, 241, 248);
+}
+
+.main-header .logo .bi-currency-bitcoin {
+	font-size: 25px;
+	vertical-align: middle;
+	color: rgb(242, 241, 248);
+}
+.main-header .main-nav{
+	margin-left: auto;
+	display: flex;
+}
+.main-header .main-nav li{
+	display: flex;
+}
+.main-header .main-nav li a{
+	font-family: 'Noto Sans TC', sans-serif;
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 1em;
+	position: relative;
+	transform: translateY(0px);
+	transition: .3s;
+}
+.main-header .main-nav li a:hover{
+	transform: translateY(-10px);
+}
+.main-header .main-nav li a:after{
+	content: '';
+	position: absolute;
+	left: 50%;
+	right: 50%;
+	bottom: -5px;
+	height: 0;
+	border-bottom: 1px solid #fff;
+	transition: .3s;
+}
+.main-header .main-nav li a:hover:after{
+	left: 1em;
+	right: 1em;
+}
+
+.main-nav li{
+	position: relative;
+}
+.main-nav ul{
+	display: none;
+	position: absolute;
+	top:100%;
+	width: 100px;
+	background: rgba(62, 81, 81, 0.5);
+	box-shadow: 5px 5px 10px hsla(240, 40%, 15%,.6);
+	
+}
+.main-nav li:hover ul{
+	display: block;
+	
+}
+
+/** flex對齊 **/
+
+.main{
+	display: flex;
+	flex-direction: column;
+ 	justify-content: center;
+	text-align: center;
+	height: 80%;
+	font-size: 20px;
+}
+
+
+.form select:focus,
+.form input:focus{
+	outline: none;
+}
+/** 表單的值對齊 **/
+.form input,
+.form select{
+	text-align: center;
+}
+
+/** 所有的按鈕效果 **/
+.botton input{
+	border:2px #65676b solid;
+  	background-color:#65676b;
+	color:#fff;
+	border-radius:10px;
+	cursor:pointer;
+	margin: 5px;
+}
+.botton input:hover{
+	color:#003C9D;
+	background-color:#fff;
+	border:2px #003C9D solid;
+}
+
+/** input選項的效果 **/
+.form .choice input{
+	border:2px #65676b solid;
+  	background-color:#65676b;
+	color:#fff;
+	border-radius:10px;
+	cursor:pointer;
+	margin: 5px;
+	width: 50px;
+	
+	
+}
+.form .choice input:hover{
+	color:#003C9D;
+	background-color:#fff;
+	border:2px #003C9D solid;
+  }
+
+/** select選項的效果 **/
+.form .choice select{
+	border:2px #65676b solid;
+  	background-color:#65676b;
+	color:#fff;
+	border-radius:10px;
+	cursor:pointer;
+	margin: 5px;
+	
+}
+.form .choice select:hover{
+	color:#003C9D;
+	background-color:#fff;
+	border:2px #003C9D solid;
+  }
+
+
+.text{
+	padding: 20px;
+}
+
+body{
+	height: 100vh;
+}
+

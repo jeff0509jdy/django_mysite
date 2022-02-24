@@ -1,0 +1,113 @@
+
+/** Table 表格样式 **/
+.table1{
+    border-collapse: collapse;
+    width:100%;
+    border:1px solid #c6c6c6 !important;
+    margin-bottom:20px;
+	
+}
+.table1 th{
+    border-collapse: collapse;
+    border-right:1px solid #c6c6c6 !important;
+    border-bottom: 1px solid #c6c6c6 !important;
+    background-color:#93a08f !important; 
+    padding:5px 9px;
+    font-size:14px;
+	color: rgb(242, 241, 248);
+    font-weight:normal;
+    text-align:center;
+}
+.table1 td{
+    border-collapse: collapse;
+    border-right:1px solid #c6c6c6 !important;
+    border-bottom:1px solid #c6c6c6 !important; 
+    padding:5px 9px;
+    font-size:12px;
+    font-weight:normal;
+    text-align:center;
+    word-break: break-all;
+}
+
+
+.table1 tbody tr:hover {
+    background-color: #c2caca;
+  }
+
+
+
+
+/** NAV樣式 **/
+
+.main-header{
+	background: linear-gradient(0deg,#3E5151,#DECBA4);
+}
+.main-header .container{
+	display: flex;
+	align-items: center;
+	padding: 20px;
+	max-width: 1200px;
+	margin: auto;
+}
+.main-header .logo {
+	width: 170px;
+	font-size: 25px;
+	color: rgb(242, 241, 248);
+}
+
+.main-header .logo .bi-currency-bitcoin {
+	font-size: 25px;
+	vertical-align: middle;
+	color: rgb(242, 241, 248);
+}
+.main-header .main-nav{
+	margin-left: auto;
+	display: flex;
+}
+.main-header .main-nav li{
+	display: flex;
+}
+.main-header .main-nav li a{
+	font-family: 'Noto Sans TC', sans-serif;
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 1em;
+	position: relative;
+	transform: translateY(0px);
+	transition: .3s;
+}
+.main-header .main-nav li a:hover{
+	transform: translateY(-10px);
+}
+.main-header .main-nav li a:after{
+	content: '';
+	position: absolute;
+	left: 50%;
+	right: 50%;
+	bottom: -5px;
+	height: 0;
+	border-bottom: 1px solid #fff;
+	transition: .3s;
+}
+.main-header .main-nav li a:hover:after{
+	left: 1em;
+	right: 1em;
+}
+
+.main-nav li{
+	position: relative;
+}
+.main-nav ul{
+	display: none;
+	position: absolute;
+	top:100%;
+	width: 100px;
+	background: rgba(62, 81, 81, 0.5);
+	box-shadow: 5px 5px 10px hsla(240, 40%, 15%,.6);
+	
+}
+.main-nav li:hover ul{
+	display: block;
+	z-index:9999
+}
+

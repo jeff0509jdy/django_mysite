@@ -1,0 +1,39 @@
+.sidebar{
+    width: 20%;
+    float:left;
+    height:100vh;   
+    
+    line-height :1.5em;
+    font-size:26px;
+    
+    background-image:linear-gradient(to left,rgb(48, 49, 49),rgb(14, 46, 114));
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+   
+    }
+
+.section{
+    height:100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    }
+body {
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 19px;
+        line-height: 2em;
+    
+    }        
+
+ 
+a:hover{ text-decoration:underline}
+a{text-decoration:none;
+        color: white;
+
+    }
+
+
