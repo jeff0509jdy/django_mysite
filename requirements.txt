@@ -78,8 +78,7 @@ terminado==0.13.1
 testpath==0.6.0
 threadpoolctl==3.1.0
 torch==1.2.0+cu92
-torchaudio==0.10.2
-torchsummary==1.5.1
+
 torchvision==0.4.0+cu92
 tornado==6.1
 tqdm==4.62.3
